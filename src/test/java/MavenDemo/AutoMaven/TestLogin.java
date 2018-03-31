@@ -36,7 +36,7 @@ public class TestLogin {
 	@Test(priority=2)
 	public void validateTitle(){
 		
-		Assert.assertEquals("Gmail", driver.getTitle());
+		Assert.assertEquals("Google", driver.getTitle());
 	}
 
 }
